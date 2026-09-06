@@ -1,4 +1,4 @@
-# zEi
+# Zainulabedin Qureshi
 
 **AI automation engineer.** I ship production AI systems by directing coding agents —
 I own the architecture, data model, integrations and deployment; the implementation is

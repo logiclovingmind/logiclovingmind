@@ -1,6 +1,6 @@
 # dominius — internal AI business OS
 
-*Engineering case study · zEi · [logiclovingmind.com](https://logiclovingmind.com) ·
+*Engineering case study · Zainulabedin Qureshi · [logiclovingmind.com](https://logiclovingmind.com) ·
 zeixdream@gmail.com*
 
 ---
