@@ -36,7 +36,7 @@ Everything in this table with a link is public and readable right now.
 | [**crm-standard**](https://github.com/logiclovingmind/crm-standard) | Brokerage operations software built to the constraint that it runs on a 1GB droplet — SQLite in WAL mode, one process, role scoping enforced at the query layer rather than the UI. |
 | [**pocket-split**](https://github.com/logiclovingmind/pocket-split) | Offline-first expense-splitting PWA — Dexie/IndexedDB, Supabase realtime, offline write queue, conflict resolution. [Live](https://pocket-split-six.vercel.app). |
 | [**music-xp**](https://github.com/logiclovingmind/music-xp) | Python daily automation with a self-tuning taste model across 23 languages. |
-| **dominius** *(private)* | Internal AI business OS in daily use — 13 modules across pipeline, prospecting, delivery and finance, with a WhatsApp lead-qualifier agent and a finance agent tracking capital and runway. Private because it holds live commercial data; happy to walk through it on a call. |
+| **dominius** *(private)* | Internal AI business OS in daily use — 13 modules across pipeline, prospecting, delivery and finance, with a WhatsApp lead-qualifier agent and an internal finance agent. Private because it holds live commercial data, so the architecture is written up instead: **[read the case study](dominius-case-study.md)**. |
 | **crm-premium** *(private)* | Postgres CRM with TOTP two-factor auth, QR enrolment and audit logging. |
 
 Adapted the same agent architecture across **10 verticals** — real estate, driving school,
