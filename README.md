@@ -27,15 +27,17 @@ OAuth and service accounts, cron scheduling, CI and backups.
 
 ### Selected work
 
+Everything in this table with a link is public and readable right now.
+
 | Project | What it is |
 |---|---|
-| **wa-agent-platform** | Multi-tenant WhatsApp AI agent SaaS — Cloudflare Workers, Durable Objects for per-conversation state, 12-table Postgres schema with RLS, AES-GCM credential encryption, safety escalation layer |
-| **dominius** | Internal AI business OS — 13 modules, a WhatsApp lead-qualifier agent and a finance agent tracking capital and runway |
-| **izi-os** | Real-estate brokerage OS — SQLite WAL, numbered migrations, PWA, three AI inference tiers, role-based desktop/mobile interfaces |
-| **agent-saas** | Multi-tenant rewrite of the agent suite — tenant-scoped data, one shared webhook routed by `phone_number_id` |
-| **crm-premium** | Postgres CRM with TOTP two-factor auth, QR enrolment and audit logging |
-| **pocket-split** | Offline-first expense-splitting PWA — Dexie/IndexedDB, Supabase realtime, offline write queue, conflict resolution |
-| **music-xp** | Python daily automation with a self-tuning taste model across 23 languages |
+| [**wa-agent-platform**](https://github.com/logiclovingmind/wa-agent-platform) | Multi-tenant WhatsApp AI agent SaaS — Cloudflare Workers, Durable Objects for per-conversation state, 17-table Postgres schema with RLS on every table, AES-GCM credential encryption with version rotation, safety escalation layer. 283 tests against the real Workers runtime. |
+| [**real-estate-whatsapp-agent**](https://github.com/logiclovingmind/real-estate-whatsapp-agent) | Lead qualifier in English, Hinglish and Gujarati — structured capture, Google Calendar booking, human handoff. [Live demo](https://whatsapp-demo-agent.vercel.app). |
+| [**crm-standard**](https://github.com/logiclovingmind/crm-standard) | Brokerage operations software built to the constraint that it runs on a 1GB droplet — SQLite in WAL mode, one process, role scoping enforced at the query layer rather than the UI. |
+| [**pocket-split**](https://github.com/logiclovingmind/pocket-split) | Offline-first expense-splitting PWA — Dexie/IndexedDB, Supabase realtime, offline write queue, conflict resolution. [Live](https://pocket-split-six.vercel.app). |
+| [**music-xp**](https://github.com/logiclovingmind/music-xp) | Python daily automation with a self-tuning taste model across 23 languages. |
+| **dominius** *(private)* | Internal AI business OS in daily use — 13 modules across pipeline, prospecting, delivery and finance, with a WhatsApp lead-qualifier agent and a finance agent tracking capital and runway. Private because it holds live commercial data; happy to walk through it on a call. |
+| **crm-premium** *(private)* | Postgres CRM with TOTP two-factor auth, QR enrolment and audit logging. |
 
 Adapted the same agent architecture across **10 verticals** — real estate, driving school,
 pathology lab, salon, spa, gym, education, automobile, clinic and tourism — including a
